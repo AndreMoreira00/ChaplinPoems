@@ -1,3 +1,3 @@
 # ChaplinPoems
- Interação com frases e cores.
- Projeto em desenvolvimento com 
+ Interação com frases e cores.<br>
+ Projeto em desenvolvimento com https://github.com/pinkovay.
