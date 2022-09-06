@@ -1,0 +1,64 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* variavel universal para retirar margem e preenchimento */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* tela total de fundo */
+body{
+  background-color: black;
+}
+
+/* Primeira divisória:
+-Oculpa 50% da tela em altura na parte superior e 100% em largura;
+-Posição de objetos flexiveis e centralizados. */
+.titulo-div{
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo do titulo:
+-Estilo de cor do texto;
+-Centralização do texto;
+-Sombra do texto. */
+.titulo-div > h1{
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-family: 'Qwitcher Grypen', cursive;
+}
+
+/* Segunda divisoria:
+-Oculpa 50% da tela em altura na parte inferior e 100% em largura;
+-Posição de objetos flexiveis e centralizados. */
+.botao-div{
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo do botão:
+-Tamanho do botão;
+-Curvatura das bordas do botão;
+-Cor do botão;
+-Sombra do botão.*/
+.botao-div > button{
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  border: 0px;
+  box-shadow: 0px 0px 5px 1px white;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-align: center;
+}
