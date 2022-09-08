@@ -4,6 +4,7 @@
 var back = window.document.getElementById('back')
 var titulo = window.document.getElementById('titulo')
 var but = window.document.getElementById('but')
+
 function white() {
   back.style.backgroundColor = '#FFFFFF';
   titulo.style.color = '#000000';
@@ -23,4 +24,5 @@ function black() {
   but.innerHTML = `WHITE`
   but.setAttribute('onclick', "white()");
 }
+
 // 3° pensar na estrutura de mensagens por meio do banco de dados;
